@@ -8,7 +8,7 @@
 
 # 二开说明 by best1a
 
-1.合并了findsomething中的正则,去掉重复的日志信息
+1.合并了findsomething中的正则,去掉重复的日志信息，实践中一些表现不好的正则补充和修改。
 感谢：https://github.com/momosecurity/FindSomething
 
 2.增加本地文件读取功能,指定文件夹全量搜索 -l参数指定即可
