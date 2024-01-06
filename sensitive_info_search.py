@@ -36,10 +36,10 @@ regex = {
            r"|s3.amazonaws.com/[a-zA-Z0-9-\.\_]+" \
            r"|s3.console.aws.amazon.com/s3/buckets/[a-zA-Z0-9-\.\_]+)",
     'wechat' : r"(" \
-           r"[W|w][X|x][I|i][D|d]:\".*\"" \
-           r"|[A|a][P|p][P|p][I|i][D|d]:\".*\"" \
-           r"|[A|a][P|p][P|p][K|k][E|e][Y|y]:\".*\"" \
-           r"|[A|a][P|p][P|p][S|s][E|e][C|c][R|r][E|e][T|t]]:\".*\")",
+           r"[W|w][X|x][I|i][D|d]:[\"]?[0-9a-zA-Z]+\[\"]?" \
+           r"|[A|a][P|p][P|p][I|i][D|d]:[\"]?[0-9a-zA-Z]+[\"]?" \
+           r"|[A|a][P|p][P|p][K|k][E|e][Y|y]:[\"]?[0-9a-zA-Z]+[\"]?" \
+           r"|[A|a][P|p][P|p][S|s][E|e][C|c][R|r][E|e][T|t]]:[\"]?[0-9a-zA-Z]+[\"]?)",
     'facebook_access_token' : r'EAACEdEose0cBA[0-9A-Za-z]+',
     'authorization_basic' : r'basic [a-zA-Z0-9=:_\+\/-]{5,100}',
     'authorization_bearer' : r'bearer [a-zA-Z0-9_\-\.=:_\+\/]{5,100}',
