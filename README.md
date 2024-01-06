@@ -1,18 +1,23 @@
 # ~~js_info_finder~~sensitive_info_search
 
-一个js文件敏感信息搜集脚本，支持输入url和js文件，也支持批量敏感信息匹配。
+~~一个js文件敏感信息搜集脚本，支持输入url和js文件，也支持批量敏感信息匹配。~~
+
+敏感文件信息收集工具,支持url链接和本地文件夹遍历.
+
+原作者:laohuan12138 https://github.com/laohuan12138
 
 # 二开说明 by best1a
 
 1.合并了findsomething中的正则,去掉重复的日志信息
+感谢：https://github.com/momosecurity/FindSomething
 
 2.增加本地文件读取功能,指定文件夹全量搜索 -l参数指定即可
 
 3.将正则中出现频繁和需要爆破的信息如path,url,domain合并整理到输出文件
 
-![1704521497452](https://file+.vscode-resource.vscode-cdn.net/Users/jayzhao/Documents/Penetration/info/Sensitive_info_search/image/README/1704521497452.png)
+<img width="1078" alt="1704521958779" src="https://github.com/Mon3t4r/sensitive_info_search/assets/98069164/9dad64fb-7291-465d-bb64-f10dd5d10bd0">
 
-![1704521958779](image/README/1704521958779.png)
+<img width="788" alt="image" src="https://github.com/Mon3t4r/sensitive_info_search/assets/98069164/ba062ed3-6863-483b-8349-605dc156f45f">
 
 
 
