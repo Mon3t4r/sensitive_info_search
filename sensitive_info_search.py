@@ -14,7 +14,6 @@ from prettytable import PrettyTable
 import optparse
 import datetime
 import os
-from tqdm import tqdm
 import time
 
 regex = {
